@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Terrains">
+      <UniqueIdentifier>{5ee480a2-5ff0-4472-8ff5-5580b5d488e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Towers">
+      <UniqueIdentifier>{39400294-32ab-4881-a815-7a685d6ab33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{a8e5f985-6a1f-4fe4-926f-5d754a23dc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MapObjects">
+      <UniqueIdentifier>{dd280d91-57e1-460e-84d0-45e8e52f6da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Waves">
+      <UniqueIdentifier>{0bf06df3-6e1c-41a7-b054-342f05820307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{c1153964-8044-4d08-811e-7a99406a6e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Organization">
+      <UniqueIdentifier>{e8b340d9-4228-4edf-8101-ad97dd5456e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{ef6426a7-af44-4787-b66f-d3c16b4b3f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fundamentals">
+      <UniqueIdentifier>{af6309f4-6bf8-4251-8447-d76ec22a49c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Attackers">
+      <UniqueIdentifier>{12a399fe-9e5b-4f56-b63e-878c53ef1a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Organization">
+      <UniqueIdentifier>{1d5bd9ec-27ec-4088-9bfe-36255c4d4b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{25dbf67d-0761-4b12-bc5c-e631aff52776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{5219397c-7157-4975-8061-4f0f43eaf3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{95d8d7b1-eed2-4118-81b2-aa5d60f26999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Towers">
+      <UniqueIdentifier>{028d92ca-bea2-423e-815e-c995ee670153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fundamentals">
+      <UniqueIdentifier>{59332151-10b6-4f54-8f5e-787ea4c98678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrains">
+      <UniqueIdentifier>{b1767223-4683-4fab-a9a6-6a625624651d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Waves">
+      <UniqueIdentifier>{908ad38b-8048-447d-8d4e-c7436a627093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapObjects">
+      <UniqueIdentifier>{2a2e6ce4-feae-4f90-b8a8-0994d5495692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Attackers">
+      <UniqueIdentifier>{14f5ce13-0d6b-43e4-bd94-97ea1ab48a45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Werewolf.h">
+      <Filter>Header Files\Attackers</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>Header Files\Terrains</Filter>
+    </ClInclude>
+    <ClInclude Include="LandmineBuilder.h">
+      <Filter>Header Files\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="Landmine.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Attacker.h">
+      <Filter>Header Files\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Header Files\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleWave.h">
+      <Filter>Header Files\Waves</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Header Files\Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Header Files\Fundamentals</Filter>
+    </ClInclude>
+    <ClInclude Include="PathObject.h">
+      <Filter>Header Files\Fundamentals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files\Organization</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Organization</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Landmine.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="LandmineBuilder.cpp">
+      <Filter>Source Files\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Source Files\Fundamentals</Filter>
+    </ClCompile>
+    <ClCompile Include="PathObject.cpp">
+      <Filter>Source Files\Fundamentals</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>Source Files\Terrains</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleWave.cpp">
+      <Filter>Source Files\Waves</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Source Files\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Werewolf.cpp">
+      <Filter>Source Files\Attackers</Filter>
+    </ClCompile>
+    <ClCompile Include="Attacker.cpp">
+      <Filter>Source Files\MapObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

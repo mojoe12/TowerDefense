@@ -1,0 +1,13 @@
+﻿  Attacker.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Werewolf.cpp
+  Weapon.cpp
+  Wave.cpp
+  SimpleWave.cpp
+  Map.cpp
+  Machine.cpp
+  Landmine.cpp
+  Engine.cpp
+Coordinate.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  LogicLibrary.vcxproj -> C:\Users\thisisjo\documents\visual studio 2015\Projects\TowerDefense\Debug\LogicLibrary.lib
