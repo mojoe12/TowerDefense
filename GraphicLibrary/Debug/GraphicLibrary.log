@@ -1,3 +1,0 @@
-﻿  GraphicStorage.cpp
-LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
-  GraphicLibrary.vcxproj -> C:\Users\thisisjo\Documents\Visual Studio 2015\Projects\TowerDefense\Debug\GraphicLibrary.lib
